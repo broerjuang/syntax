@@ -46,3 +46,6 @@ call(~\"let": int)
 document.createElementWithOptions(. "div", elementProps(~onClick=_ =>
     Js.log("hello world")
   ))
+
+resolve(.)
+resolve(. ())
